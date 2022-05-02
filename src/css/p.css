@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/pic/pic1.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.text{
+    
+    width: 40vw;
+    height: 40vw;
+}
+.text h2{
+    margin: -25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: #fff;
+}
+.text p{
+    margin: 45px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #f5f5f5;
+    gap: 0.75rem;
+}
+.scl{
+  color: #fff;
+  font-weight: bold;
+
+}
+.form{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 3px 2px 2px rgba(255,255,255,);
+    background:#fff;
+    border-radius: 15px;
+    margin-top:380px;
+}
+.form h2{
+    font-size: 15px;
+    border-radius: 10px;
+}
+.form input{
+    width: 290px;
+    height: 40px;
+    border: 2px solid #f5f5f5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form input:hover{
+    border: 2px solid #89CFF0;
+}
+form{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    padding: 25px;
+    line-height: 30px;
+    
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background: #0000FF;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 2px 2px #0000FF;
+}
+#ball {
+    width: 90px;
+    height: 90px;
+    margin: 50px auto;
+    position: fixed;
+    top: 0%;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 110px;
+  }
+  a{
+     margin-top: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      text-decoration: none;
+      color: #120A8F;
+  }
+  .form, #ball{
+    z-index: 1000;
+    position: fixed;
+    transform: translateY(-140px);
+   
+  }
+ 
+
+ 
